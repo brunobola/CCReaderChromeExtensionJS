@@ -1,0 +1,89 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<script type="text/javascript" src="../CCReaderChromeExtension.js"></script>
+    <script type="text/javascript" src="js/jquery_3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/CitizenCardReaderTest.js"></script>
+
+    <title>Citizen Card Reader Test</title>
+
+    <style>
+        #available-certificates:hover {
+            cursor: pointer;
+        }
+        #available-certificates .selected {
+             color: #1e90ff;
+         }
+
+        #citizen-card-data {
+            max-width: 200px;
+        }
+        #citizen-card-certificates {
+            font-size: small;
+            word-wrap: break-word;
+        }
+        #citizen-card-certificates td {
+            max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="load-card-data">LOAD SMART CARD DATA</button>
+        <table id="citizen-card-data">
+            <tr>
+                <td>First Name</td>
+                <td><input id="citizen-card-first-name" value=""/></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input id="citizen-card-last-name" value=""/></td>
+            </tr>
+            <tr>
+                <td>BI</td>
+                <td><input id="citizen-card-number" value=""/></td>
+            </tr>
+            <tr>
+                <td>NIF</td>
+                <td><input id="citizen-card-tax-number" value=""/></td>
+            </tr>
+            <tr>
+                <td>Número de SNS</td>
+                <td><input id="citizen-card-sns-number" value=""/></td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td><input id="citizen-card-genre" value=""/></td>
+            </tr>
+            <tr>
+                <td>Nacionalidade</td>
+                <td><input id="citizen-card-nationality" value=""/></td>
+            </tr>
+            <tr>
+                <td>País</td>
+                <td><input id="citizen-card-country" value=""/></td>
+            </tr>
+            <tr>
+                <td>Data de validade</td>
+                <td><input id="citizen-card-expiration-date" value=""/></td>
+            </tr>
+            <tr>
+                <td>Data de nascimento</td>
+                <td><input id="citizen-card-birth-date" value=""/></td>
+            </tr>
+            <tr>
+                <td>foto (base64)</td>
+                <td>
+					<img id="citizen-card-picture" />
+            </tr>
+            <tr>
+                <td>Certificados</td>
+                <td>
+                    <table id="citizen-card-certificates"></table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
