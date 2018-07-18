@@ -88,7 +88,7 @@ CCField = {
 }
 
 
-CRReaderChromeExtensionError = {
+CCReaderChromeExtensionError = {
     /** Codes sent from background/Native app **/
     AlreadyRunning          : 1,
     InvalidRequest          : 2,
