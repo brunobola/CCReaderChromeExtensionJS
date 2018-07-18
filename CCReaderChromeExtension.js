@@ -83,8 +83,8 @@ CCField = {
     TaxNumber           : 10,
     LastName            : 11,
     FirstName           : 12,
-    BirthDate			: 13,
-    Address				: 14
+    BirthDate		: 13,
+    Address		: 14
 }
 
 
