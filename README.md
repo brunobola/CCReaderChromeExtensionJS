@@ -23,3 +23,6 @@ Requisitos:
    - [Download](https://chrome.google.com/webstore/detail/leitor-de-cart%C3%A3o-de-cidad/mmhaflpdheoiocihkjjjgcolajjnkjdf)
  - Aplicação .NET para leitura de dados
    - [Download](https://1drv.ms/f/s!AkLsBHidk5AH505kYAYRVOLJAoom)
+   
+**Nota**
+É possível que o exemplo em Tester não funcione se abrirem a página localmente (com file:// no browser). É preferível transferir para um servidor web e testar a partir de lá.
