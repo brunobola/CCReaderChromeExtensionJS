@@ -19,7 +19,7 @@ Utilização:
 
 
 Requisitos:
- - Plugin Chrome
+ - Chrome Extension
    - [Download](https://chrome.google.com/webstore/detail/leitor-de-cart%C3%A3o-de-cidad/mmhaflpdheoiocihkjjjgcolajjnkjdf)
  - Aplicação .NET para leitura de dados
    - [Download](https://1drv.ms/f/s!AkLsBHidk5AH505kYAYRVOLJAoom)
