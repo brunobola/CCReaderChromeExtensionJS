@@ -40,9 +40,6 @@
             case CCReaderChromeExtensionError.InvalidRequestType:
                 alert('INVALID_REQUEST_TYPE');
                 break;
-            case CCReaderChromeExtensionError.CouldNotSignPrescriptions:
-                alert('COULD_NOT_SIGN_PRESCRIPTIONS');
-                break;
         }
         return;
     }
